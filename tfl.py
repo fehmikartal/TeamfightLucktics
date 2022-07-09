@@ -8,10 +8,6 @@ previous_limit = 0
 next_limit = 100
 shield = True
 passperm = True
-# if placement >= 4:
-#     victory = True
-# else:
-#     victory = False
 
 while True:
     placement = ri(1,8)
@@ -48,14 +44,3 @@ while True:
     press_to_continue = input('')
     if press_to_continue == 'mmr':
         print(f'(mmr: {mmr})\n')
-
-'''
-3,5
-2,5
-1,5
-0,5
--0,5
--1,5
--2,5
--3,5
-'''
